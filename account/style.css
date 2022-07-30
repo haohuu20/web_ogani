@@ -1,0 +1,43 @@
+/*form nhập*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+.form-group1{
+    position: relative;		    
+    border-radius: 5px;
+}
+.form-group1 span{
+   position: absolute;
+   right: 15px;
+   top: 70%;
+   transform: translateY(-50%);
+   font-size: 20px;
+   cursor: pointer;
+   display: none;
+}
+.form-group1 input:valid ~ span{
+   display: block;
+}
+.form-group1 span i.hide-btn::before{
+   content: "\f070";
+}
+
+/*home*/
+#divTaiKhoan{
+	float: right;
+}
+
+form.example input{
+	float:  left;
+	width:  80%;
+}
+form.example button{
+	float:  left;
+	width: 20%;
+	height: 34px;
+}
+#divTimKiem{
+	margin-top: 40px;
+}
+#dsTaiKhoan{
+   margin-top: 130px;
+}
